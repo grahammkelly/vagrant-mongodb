@@ -1,0 +1,8 @@
+.vagrant/
+*.log
+log/
+*.tmp
+tmp/
+.idea/
+*.iml
+
