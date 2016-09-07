@@ -22,7 +22,7 @@ Vagrant.configure(VAGRANT_API_VER) do |config|
   config.vm.synced_folder "#{Dir.pwd}/data", "/vagrant_data"
 
   config.vm.provider "virtualbox" do |vb|
-  	# vb.memory = "1024"
+  	vb.memory = "1024"
     vb.name = VM_NAME
   end
 
